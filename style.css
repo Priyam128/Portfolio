@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.Sec1 {
+    height:1000px;
+    width:98.9vw;
+    background-image: url(./sec1\ new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Photo {
+    padding-top:265px;
+    padding-left: 260px;
+}
+
+.BigText {
+    font-family: "Bebas Neue";
+    color: #33749B;
+    position: absolute;
+    font-size: 110px;
+    padding-top:260px;
+    padding-left:180px;
+}
+
+.SmallText {
+    font-family: "Montserrat";
+    color: #33749B;
+    position: absolute;
+    font-size: 30px;   
+}
+
+.navigation{
+	margin:0px;
+	padding-left:550px;
+	list-style: none;
+}
+
+.navigation li{
+	display: inline-block;
+}
+
+#body-header .navigation li{
+		margin: 0px 20px 20px 0px;
+}
+
+.navigation li a:hover{
+	color: #615a56;
+	font-size: 40px;
+	
+}
+
+.nav-menu{
+	border-bottom: 1px solid white;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.5s, border-bottom 4s, font-size 1s;
+	font-size:35px;
+	text-shadow: 2px 2px grey;
+
+}
+
+.text-center{
+	text-align: center;
+}
+
+#header-name{
+	color: black;
+	text-shadow: 2px 2px grey;
+	margin-bottom: 0.5rem;
+	font-size:100px;
+}
+
+.social-icons li a i{
+	padding: 10px;
+	border-radius: 50%
+}
+
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 6px grey;
+}
+
+.Sec2 {
+    height:1100px;
+    width:98.9vw;
+    background-image: url(./sec2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat";
+    color:#33749B;
+    display: inline-block;
+    font-size:50px;
+    text-justify: inter-word;
+    text-align: center;
+}
+
+.intro{
+    left: 100px;
+    top: 20px;
+    position: relative;
+}
+
+.video{
+    overflow-y:hidden;
+}
+
+.Sec3 {
+    height:1100px;
+    width:98.9vw;
+    background-image: url(./sec3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
