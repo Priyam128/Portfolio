@@ -86,9 +86,9 @@ body{
 }
 
 .Sec2 {
-    height:1100px;
+    height:2200px;
     width:98.9vw;
-    background-image: url(./sec2.png);
+    background-image: url(./image.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Montserrat";
@@ -100,19 +100,6 @@ body{
 }
 
 .intro{
-    left: 100px;
-    top: 20px;
-    position: relative; /*this is a rad comment*/
+    padding-left: 150px;
 }
 
-.video{
-    overflow-y:hidden;
-}
-
-.Sec3 {
-    height:1100px;
-    width:98.9vw;
-    background-image: url(./sec3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
